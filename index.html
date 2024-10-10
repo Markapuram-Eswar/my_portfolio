@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
@@ -186,12 +185,12 @@
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage1.jpeg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/FireShot Capture 012 - ATS Resume Expert - localhost.png" alt="Card image" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">YouTube Clone</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <h4 class="card-title">Ats Resume</h4>
+                            <p class="card-text">preview of the Web application created by using python(StreamLit)&Gemini API</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a href="https://github.com/Markapuram-Eswar/Ats_Resume" class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -199,12 +198,12 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage4.jpeg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/image.png" alt="Card image" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">Quiz App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <h4 class="card-title">Classic Space shooter</h4>
+                            <p class="card-text">A 1900 Classic space shooter game just created using python(pygame lib)</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a href="https://github.com/Markapuram-Eswar/pygame" class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -212,65 +211,24 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage3.jpeg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/i-love-coding-dark-3840x2160-16016.png" alt="Card image" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">Product Landing Page</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <h4 class="card-title">Flutter Application(FYI-Under Development)</h4>
+                            <p class="card-text">It is a complex application containing a web application . A web App that uses a AI model for identifying plant diseases & give required precautions for it.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage4.jpeg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Messaging Service</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage1.jpeg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Twitter Clone</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage4.jpeg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Blog App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div>           
     </section>
     
     <!-- contact section-->
     <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
     <section class="container mt-3 section" id="contact">
         <h1 class="text-center">Contact Me</h1>
-
+        <h3 class="text-center">This form actually works</h3>
         <div class="row mt-4">
             <div class="col-lg-6">
                 <!-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html  -->
@@ -286,19 +244,15 @@
             </div>
 
             <div class="col-lg-6">
-                <!-- form fields -->
-                <form>
-                    <input type="text" class="form-control form-control-lg" placeholder="Name">
-                    <input type="email" class="form-control mt-3" placeholder="Email">
-                    <input type="text" class="form-control mt-3" placeholder="Subject">
-                    <div class="mb-3 mt-3">
-                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                    </div>
+                <!-- Form Fields -->
+                <form id="portfolio_form">
+                    <input name="name" type="text" id="name" class="form-control form-control-lg" placeholder="Name" required>
+                    <input name="email" type="email" id="email" class="form-control mt-3" placeholder="Email" required>
+                    <input name="subject" type="text" id="subject" class="form-control mt-3" placeholder="Subject" required>
+                    <input name="project" type="text" class="form-control mt-3" placeholder="Project" required>
+                    <button type="submit" class="btn btn-success mt-3">Contact Me</button>
                 </form>
-                <button type="button" class="btn btn-success mt-3">Contact Me</button>
-            </div>
-        </div>
-        
+            </div>            
     </section>
     <!-- footer section-->
     <footer class="container-fluid footer" id="footer">
@@ -315,7 +269,8 @@
 
     <!-- load javascript after loading all html content -->
     <script src="script/script.js"></script>
-
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://www.googleapis.com/auth/spreadsheets"></script>
 </body>
 
 </html>
