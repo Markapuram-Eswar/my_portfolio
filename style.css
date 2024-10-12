@@ -80,4 +80,10 @@
     background-color: #808080;
     text-align: center;
 }
-
+.btn-failure {
+    background-color: #dc3545; /* Red background for failure */
+    border: none;
+}
+.btn-failure:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
