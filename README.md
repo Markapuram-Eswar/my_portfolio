@@ -8,8 +8,8 @@ Hello! I'm Eswar Kumar, a Under Graduate  with a passion for AGI. This portfolio
 - **Database Management**: MySQL, Firebase Firestore
 
 ### Featured Projects
-=**Planter**: A Flutter application that assists farmers by analyzing images of diseased plants to provide disease information and recommended cures.{on Developement}
--**ATS Resume Expert**: A Streamlit application that analyzes a resume in PDF format against a job description, providing recommendations and suggested changes to improve alignment. [https://github.com/Markapuram-Eswar/Ats_Resume]
+- **Planter**: A Flutter application that assists farmers by analyzing images of diseased plants to provide disease information and recommended cures.{on Developement}
+- **ATS Resume Expert**: A Streamlit application that analyzes a resume in PDF format against a job description, providing recommendations and suggested changes to improve alignment. [https://github.com/Markapuram-Eswar/Ats_Resume]
 
 ### Experience and Achievements
 - **GDSC**: Second Person in AI Team conducted many session with students about AI Basics.
