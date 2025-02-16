@@ -17,4 +17,4 @@ Hello! I'm Eswar Kumar, a Under Graduate  with a passion for AGI. This portfolio
 - **Zoho CliqTrix24 Finalist**: Created a bot that provides information about Movies and generates funny jokes {created using Zobot in sales iq}.got a certificate of application .
 
 ### Contact
-Feel free to reach out via markapurameswarkumar@gmail.com or connect with me on linked in [https://www.linkedin.com/feed/].
+Feel free to reach out via markapurameswarkumar@gmail.com or connect with me on linked in [(https://www.linkedin.com/in/m-eswar/)].
