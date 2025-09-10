@@ -182,50 +182,85 @@
     </section>
 
     <!-- portfolio section-->
-    <section class="section" id="portfolio">
-        <div class="container mt-3">
-            <h1 class="text-center">Portfolio</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/FireShot Capture 012 - ATS Resume Expert - localhost.png" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Ats Resume</h4>
-                            <p class="card-text">preview of the Web application created by using python(StreamLit)&Gemini API</p>
-                            <div class="text-center">
-                                <a href="https://github.com/Markapuram-Eswar/Ats_Resume" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<!-- Portfolio Section -->
+<section class="section bg-light py-5" id="portfolio">
+  <div class="container">
+    <h1 class="text-center mb-5 fw-bold text-dark">My Portfolio</h1>
+    <div class="row g-4">
 
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/image.png" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Classic Space shooter</h4>
-                            <p class="card-text">A 1900 Classic space shooter game just created using python(pygame lib)</p>
-                            <div class="text-center">
-                                <a href="https://github.com/Markapuram-Eswar/pygame" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- Project 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-0 hover-card">
+          <div class="card-img-container">
+            <img class="card-img-top" src="images/FireShot Capture 012 - ATS Resume Expert - localhost.png" alt="ATS Resume App">
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title fw-semibold">ATS Resume</h4>
+            <p class="card-text text-muted">Web application created using <span class="badge bg-primary">Python</span> & <span class="badge bg-info text-dark">Gemini API</span>.</p>
+            <div class="mt-auto text-center">
+              <a href="https://github.com/Markapuram-Eswar/Ats_Resume" class="btn btn-success btn-sm px-4">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/i-love-coding-dark-3840x2160-16016.png" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Flutter Application(FYI-Under Development)</h4>
-                            <p class="card-text">It is a complex application containing a web application . A web App that uses a AI model for identifying plant diseases & give required precautions for it.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-failure">On Developement</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>           
-    </section>
+      <!-- Project 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-0 hover-card">
+          <div class="card-img-container">
+            <img class="card-img-top" src="images/image.png" alt="Classic Space Shooter">
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title fw-semibold">Classic Space Shooter</h4>
+            <p class="card-text text-muted">A retro-inspired game built with <span class="badge bg-warning text-dark">Python</span> (<span class="badge bg-dark">Pygame</span>).</p>
+            <div class="mt-auto text-center">
+              <a href="https://github.com/Markapuram-Eswar/pygame" class="btn btn-success btn-sm px-4">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-0 hover-card">
+          <div class="card-img-container">
+            <img class="card-img-top" src="images/i-love-coding-dark-3840x2160-16016.png" alt="Flutter App">
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title fw-semibold">Flutter App (In Progress)</h4>
+            <p class="card-text text-muted">AI-powered plant disease detection app built with <span class="badge bg-primary">Flutter</span> & <span class="badge bg-danger">AI Models</span>.</p>
+            <div class="mt-auto text-center">
+              <a href="#" class="btn btn-outline-danger btn-sm px-4 disabled">Under Development</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CSS Enhancements -->
+<style>
+  .hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .hover-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+  .card-img-container {
+    overflow: hidden;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  .card-img-container img {
+    transition: transform 0.4s ease;
+  }
+  .card-img-container:hover img {
+    transform: scale(1.1);
+  }
+</style>
+
     
     <!-- contact section-->
     <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
