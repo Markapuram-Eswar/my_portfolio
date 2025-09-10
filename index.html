@@ -109,43 +109,81 @@
   <h1 class="text-center mb-4">Skills & Certifications</h1>
   
   <!-- Skills -->
-  <div class="row">
-    <div class="col-lg-4 mt-3">
-      <div class="card h-100">
-        <div class="card-body">
-          <h4 class="card-title">AI / ML</h4>
-          <p class="card-text">
-            Deep learning, NLP, computer vision,  
-            model training, fine-tuning, and deployment.
-          </p>
+<div class="row text-center">
+  
+  <!-- AI / ML -->
+  <div class="col-lg-4 col-md-6 mt-3">
+    <div class="card h-100 shadow-sm border-0 skill-card">
+      <div class="card-body">
+        <div class="icon mb-3">
+          <i class="fas fa-robot fa-2x text-primary"></i>
         </div>
-      </div>
-    </div>
-
-    <div class="col-lg-4 mt-3">
-      <div class="card h-100">
-        <div class="card-body">
-          <h4 class="card-title">Application Development</h4>
-          <p class="card-text">
-            Flutter for cross-platform apps,  
-            responsive and interactive web development.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-4 mt-3">
-      <div class="card h-100">
-        <div class="card-body">
-          <h4 class="card-title">Other Skills</h4>
-          <p class="card-text">
-            Git & GitHub, Linux (Ubuntu),  
-            image/video editing, troubleshooting, quick learner.
-          </p>
-        </div>
+        <h4 class="card-title">AI / ML</h4>
+        <p class="card-text">
+          Deep learning, NLP, computer vision,  
+          model training, fine-tuning, and deployment.
+        </p>
       </div>
     </div>
   </div>
+
+  <!-- Application Development -->
+  <div class="col-lg-4 col-md-6 mt-3">
+    <div class="card h-100 shadow-sm border-0 skill-card">
+      <div class="card-body">
+        <div class="icon mb-3">
+          <i class="fas fa-mobile-alt fa-2x text-success"></i>
+        </div>
+        <h4 class="card-title">Application Development</h4>
+        <p class="card-text">
+          Flutter for cross-platform apps,  
+          responsive and interactive web development.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Other Skills -->
+  <div class="col-lg-4 col-md-6 mt-3">
+    <div class="card h-100 shadow-sm border-0 skill-card">
+      <div class="card-body">
+        <div class="icon mb-3">
+          <i class="fas fa-tools fa-2x text-warning"></i>
+        </div>
+        <h4 class="card-title">Other Skills</h4>
+        <p class="card-text">
+          Git & GitHub, Linux (Ubuntu),  
+          image/video editing, troubleshooting, quick learner.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CSS -->
+<style>
+  .skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+  }
+  .skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+  .icon {
+    background: #f8f9fa;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+</style>
+
+<!-- FontAwesome (for icons) -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
   <!-- Certifications -->
   <div class="mt-5">
